@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>Metabridge Demo</title>
+    <style>
+      /* Style for the header/navbar */
+      header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      /* Style for the container */
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        height: 400px;
+      }
+      /* Style for the logo boxes */
+      .logo-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+      }
+      /* Style for the input box */
+      .input-box {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      /* Style for the output box */
+      .output-box {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      /* Style for the Theta logo */
+      #theta-logo {
+        width: 150px;
+        height: 150px;
+      }
+      /* Style for the Ethereum logo */
+      #ethereum-logo {
+        width: 150px;
+        height: 150px;
+      }
+      /* Style for the send message button */
+      .send-button  {
+        
+  background-color: #00bcd4;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 50px;
+  align-self: center;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Metabridge Demo</h1>
+      <nav>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="logo-box">
+        <img id="theta-logo" src="Metabridge%20Demo_files/theta_logo.png" alt="Theta logo">
+        <input class="input-box" type="text" placeholder="Enter a string">
+      </div>
+      <div class="logo-box">
+        <img id="ethereum-logo" src="Metabridge%20Demo_files/eth-logo.png" alt="Ethereum logo">
+        <div class="output-box">Output will appear here</div>
+      </div>
+    </div>
+    <div class="button-container" style="justify-content: center; display: flex;">
+    <button class="send-button">Send Message</button>
+</div>
+  
+
+</body></html>
